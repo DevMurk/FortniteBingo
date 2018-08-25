@@ -1,45 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" style="height: 100%;">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
+		<link rel="stylesheet" href="css/footer-style.css">
+		<link rel="stylesheet" href="css/nav-style.css">
+		<link rel="stylesheet" href="css/about-style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+		<title>About</title>
         <link rel="icon" href="img/fav-icon.png" type="image/x-icon" />
-        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>About</title>
-		<link href="css/style.css" rel="stylesheet">
+		
 	</head>
-	<body class="about_back" style="margin: 0px; min-width: 1900px; height: 100%;">
-	<!--================ Header Menu Area =================-->
-        <header>
-			<ul>
-				<li><a class="active" href="#">About</a></li>
-				<li><a href="index.html">Generator</a></li>
-				<a class="logo" href="index.html"><img src="img/logo.png" alt="" width="35%"></a>			
-			</ul>
-        </header>
-        <!--================ End Header Menu Area =================-->
-		<div>
-			<div>
-				<span class="slct" style="top: 100px; text-align: left;">How to use the Random Bingo Card Generator?</span>
-				<span class="ftr" style="text-align: left; top: 80px;">Step 1: Select/Deselect everything you would like to have on your card.<br>Step 2: Click on a 'Generate Card' button.
-				<br>Step 3: Click on the 'Copy Code' button and copy the code that is in the pop-up.<br>Step 4: Share the code with your friends and have them paste it into the box.
-				<br>Step 5: Click on the 'Load Code' button and you'll have the same card as your friends.<br>Step 6: Hop into a game of fortnite and click on the item on the card to keep track of your progress!</span>
+	
+	<body style="margin: 0px; min-width: 700px;">
+	
+		<div class="main">
+		
+			<nav class="menu-navigation-round">
+				<img href="generator.html" src="img/logo.png"></img>		
+				<a href="generator.html">Generator</a>
+				<a href="#" class="selected">About</a>
+				<a href="contact.html">Contact</a>
+			</nav>
+		
+			<div class="faq">
+				<a>FAQ</a>
+				<p> </p>
+				<p>Q: How does Fortnite Bingo work? A: You generate a card and collect everything on the card!</p>
+				<p>Q: I have an idea that could improve this site! Where can I submit my idea? A: Go to the contact page and use the message box!</p>
+				<p> </p>
+				<p> </p>
+				<p> </p>
+				<p> </p>
+				<p> </p>
 			</div>
 			
-			<div>
-				<span class="slct" style="top: 100px; text-align: left;">FortniteBingo.com Partners:</span>
-				<a href="https://twitter.com/inazumark">
-					<img src="img/help/marklogo.png" style="margin-left: 50px; margin-top: 100px" width="100" height="100" class="hvrbox-layer_bottom">
-				</a>
-				<a href="https://twitch.tv/dioninsanity">
-					<img src="img/help/diologo.png" style="margin-left: 10px; margin-top: 100px" width="100" height="100" class="hvrbox-layer_bottom">
-				</a>
+			<div class="middle">
+				<div class="usage">
+					<a>How to use the Random Bingo Card Generator?</a>
+					<p>Step 1: Select/Deselect everything you would like to have on your card.<br>Step 2: Click on a 'Generate Card' button.
+					<br>Step 3: Click on the 'Copy Code' button and copy the code that is in the pop-up.<br>Step 4: Share the code with your friends and have them paste it into the box.
+					<br>Step 5: Click on the 'Load Code' button and you'll have the same card as your friends.<br>Step 6: Hop into a game of fortnite and click on the item on the card to keep track of your progress!</p>
+				</div>
+					
+				<div class="partners">
+					<a>Partners:</a>
+					<p> </p>
+					<a href="https://twitter.com/inazumark" class="tooltip"><img src="img/partner/mark.png"></img><span class="tooltiptext"><p>[Creator]<br>Mark</p></span></a>
+					<a href="https://twitch.tv/dioninsanity" class="tooltip"><img src="img/partner/dion.png"></img><span class="tooltiptext"><p>[Streamer][Friend]<br>DionInsanity</p></span></a>
+				</div>
 			</div>
 			
-			<div class="ad1" style="float: right; right: 100px; margin-top: -550px;">
-				
+			<div class="middle">
+			
+				<div class="usage">
+					<a>Vending Machine Locations</a>
+					<p>One of the best stratagies in Fortnite Bingo is checking Vending Machines. Finding a purple Vending Machine is easier than opening a lot of chests!<br>We've done some research and made a map with all the vending locations! Click on the image to view the bigger version of the map!</p>
+				</div>
+			
+				<a class="lightbox vendings" href="#vending">
+					<img src="img/other/vending_map.png"/>
+				</a> 
+				<div class="lightbox-target" id="vending">
+					<img src="img/other/vending_map.png"/>
+					<a class="lightbox-close" href="#"></a>
+				</div>
+			</div>
+			
+			<div class="ad">
 				<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 				<!-- Fortnite Bingo -->
 				<ins class="adsbygoogle"
@@ -51,16 +83,28 @@
 				<script>
 				(adsbygoogle = window.adsbygoogle || []).push({});
 				</script>
-				
 			</div>
+			
+			<div style="width: 100%; height: 20px;"></div>
+			
 		</div>
-		<div style="height: 50%;"></div>
-		<div class="footer">
-			<span class="ftr" style="top: 15px;">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This site is made by Mark</span>
-			<span class="ftr" style="margin-top: -60px; text-align: right; margin-right: 10px">Discord: #Murk0398 | Twitter: @Inazumark | Contact</span>
-			<a href="mailto:mark.molenmaker01@gmail.com">
-				<span class="ftr" style="margin-top: -75px; text-align: right;"> </span>
-			</a>
-		</div>
+	
+		<footer class="footer-distributed">
+			<div class="footer-right">
+				<a href="#"><i class="fab fa-discord tooltip"><span class="tooltiptext">Murk#0398</span></i></a>
+				<a href="https://twitter.com/inazumark"><i class="fab fa-twitter"></i></a>
+				<a href="contact.html"><i class="fas fa-envelope"></i></a>
+			</div>
+
+			<div class="footer-left">
+				<p class="footer-links">
+					<a>Thanks for using FortniteBingo.net</a>
+				</p>
+
+				<p>Fortnite Bingo Copyright &copy; 2018 | All Rights Reserved</p>
+				<p>Fortnite is a registered trademark of Epic Games</p>
+			</div>
+		</footer>
+		
 	</body>
 </html>
