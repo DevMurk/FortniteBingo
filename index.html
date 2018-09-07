@@ -35,7 +35,12 @@
 		
 		<script lanuage="javascript">
 		
-			var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ,14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85];
+			var numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13 ,14, //15,
+			16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, //27, 28, 29, 30, 
+			31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, //48, 
+			49, 50, 51, 52, 53, 54, 55, 56, 57, 58, //59, 
+			60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 
+			73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86];
 		
 			var codeCard;
 		
@@ -189,7 +194,7 @@
 						alertMsg = "pis_sup_epic";
 						break;
 						case 32:
-						alertMsg = "pis_sup_leg";
+						alertMsg = "pis_sup_rare";
 						break;
 						case 33:
 						alertMsg = "pis_hand_epic";
@@ -201,7 +206,7 @@
 						alertMsg = "pis_dual_epic";
 						break;
 						case 36:
-						alertMsg = "pis_dual_leg";
+						alertMsg = "pis_dual_rare";
 						break;
 						//Shotguns
 						case 37:
@@ -242,10 +247,10 @@
 						alertMsg = "snp_bolt_leg";
 						break;
 						case 49:
-						alertMsg = "snp_auto_epic";
+						alertMsg = "snp_auto_un";
 						break;
 						case 50:
-						alertMsg = "snp_auto_leg";
+						alertMsg = "snp_auto_rare";
 						break;
 						case 51:
 						alertMsg = "snp_hunt_un";
@@ -308,13 +313,13 @@
 						alertMsg = "thr_imp_rare";
 						break;
 						case 70:
-						alertMsg = "thr_rem_rare";
+						alertMsg = "thr_rem_epic";
 						break;
 						case 71:
 						alertMsg = "thr_boo_rare";
 						break;
 						case 72:
-						alertMsg = "thr_port_epic";
+						alertMsg = "thr_port_rare";
 						break;
 						case 73:
 						alertMsg = "thr_sti_epic";
@@ -356,6 +361,9 @@
 						break;
 						case 85:
 						alertMsg = "thr_rif_epic";
+						break;
+						case 86:
+						alertMsg = "thr_shoc_epic";
 						break;
 					}
 					
@@ -534,7 +542,7 @@
 						alertMsg = "pis_sup_epic";
 						break;
 						case 32:
-						alertMsg = "pis_sup_leg";
+						alertMsg = "pis_sup_rare";
 						break;
 						case 33:
 						alertMsg = "pis_hand_epic";
@@ -546,7 +554,7 @@
 						alertMsg = "pis_dual_epic";
 						break;
 						case 36:
-						alertMsg = "pis_dual_leg";
+						alertMsg = "pis_dual_rare";
 						break;
 						//Shotguns
 						case 37:
@@ -587,10 +595,10 @@
 						alertMsg = "snp_bolt_leg";
 						break;
 						case 49:
-						alertMsg = "snp_auto_epic";
+						alertMsg = "snp_auto_un";
 						break;
 						case 50:
-						alertMsg = "snp_auto_leg";
+						alertMsg = "snp_auto_rare";
 						break;
 						case 51:
 						alertMsg = "snp_hunt_un";
@@ -653,13 +661,13 @@
 						alertMsg = "thr_imp_rare";
 						break;
 						case 70:
-						alertMsg = "thr_rem_rare";
+						alertMsg = "thr_rem_epic";
 						break;
 						case 71:
 						alertMsg = "thr_boo_rare";
 						break;
 						case 72:
-						alertMsg = "thr_port_epic";
+						alertMsg = "thr_port_rare";
 						break;
 						case 73:
 						alertMsg = "thr_sti_epic";
@@ -701,6 +709,9 @@
 						break;
 						case 85:
 						alertMsg = "thr_rif_epic";
+						break;
+						case 86:
+						alertMsg = "thr_shoc_epic";
 						break;
 					}
 					
@@ -812,7 +823,7 @@
 					<img src="img/icons/ar_sco_rare.png" width="100" height="100" onclick="handleClick(this, 13);">
 					<img src="img/icons/ar_sco_epic.png" width="100" height="100" onclick="handleClick(this, 14);">
 					
-					<img src="img/icons/smg_sup_com.png" width="100" height="100" onclick="handleClick(this, 15);">
+					<!--img src="img/icons/smg_sup_com.png" width="100" height="100" onclick="handleClick(this, 15);"-->
 					<img src="img/icons/smg_sup_un.png" width="100" height="100" onclick="handleClick(this, 16);">
 					<img src="img/icons/smg_sup_rare.png" width="100" height="100" onclick="handleClick(this, 17);">
 					
@@ -828,20 +839,20 @@
 			
 					<img src="img/icons/pis_def_com.png" width="100" height="100" onclick="handleClick(this, 25);">
 					<img src="img/icons/pis_def_un.png" width="100" height="100" onclick="handleClick(this, 26);">
-					<img src="img/icons/pis_def_rare.png" width="100" height="100" onclick="handleClick(this, 27);">
+					<!--img src="img/icons/pis_def_rare.png" width="100" height="100" onclick="handleClick(this, 27);"-->
 					
-					<img src="img/icons/pis_rev_com.png" width="100" height="100" onclick="handleClick(this, 28);">
+					<!--img src="img/icons/pis_rev_com.png" width="100" height="100" onclick="handleClick(this, 28);">
 					<img src="img/icons/pis_rev_un.png" width="100" height="100" onclick="handleClick(this, 29);">
-					<img src="img/icons/pis_rev_rare.png" width="100" height="100" onclick="handleClick(this, 30);">
+					<img src="img/icons/pis_rev_rare.png" width="100" height="100" onclick="handleClick(this, 30);"-->
 					
+					<img src="img/icons/pis_sup_rare.png" width="100" height="100" onclick="handleClick(this, 32);">
 					<img src="img/icons/pis_sup_epic.png" width="100" height="100" onclick="handleClick(this, 31);">
-					<img src="img/icons/pis_sup_leg.png" width="100" height="100" onclick="handleClick(this, 32);">
 					
 					<img src="img/icons/pis_hand_epic.png" width="100" height="100" onclick="handleClick(this, 33);">
 					<img src="img/icons/pis_hand_leg.png" width="100" height="100" onclick="handleClick(this, 34);">
 					
+					<img src="img/icons/pis_dual_rare.png" width="100" height="100" onclick="handleClick(this, 36);">
 					<img src="img/icons/pis_dual_epic.png" width="100" height="100" onclick="handleClick(this, 35);">
-					<img src="img/icons/pis_dual_leg.png" width="100" height="100" onclick="handleClick(this, 36);">
 					
 					<img src="img/icons/shot_tac_com.png" width="100" height="100" onclick="handleClick(this, 37);">
 					<img src="img/icons/shot_tac_un.png" width="100" height="100" onclick="handleClick(this, 38);">
@@ -858,10 +869,10 @@
 			
 					<img src="img/icons/snp_bolt_rare.png" width="100" height="100" onclick="handleClick(this, 46);">
 					<img src="img/icons/snp_bolt_epic.png" width="100" height="100" onclick="handleClick(this, 47);">
-					<img src="img/icons/snp_bolt_leg.png" width="100" height="100" onclick="handleClick(this, 48);">
+					<!--img src="img/icons/snp_bolt_leg.png" width="100" height="100" onclick="handleClick(this, 48);"-->
 					
-					<img src="img/icons/snp_auto_epic.png" width="100" height="100" onclick="handleClick(this, 49);">
-					<img src="img/icons/snp_auto_leg.png" width="100" height="100" onclick="handleClick(this, 50);">
+					<img src="img/icons/snp_auto_un.png" width="100" height="100" onclick="handleClick(this, 49);">
+					<img src="img/icons/snp_auto_rare.png" width="100" height="100" onclick="handleClick(this, 50);">
 					
 					<img src="img/icons/snp_hunt_un.png" width="100" height="100" onclick="handleClick(this, 51);">
 					<img src="img/icons/snp_hunt_rare.png" width="100" height="100" onclick="handleClick(this, 52);">
@@ -874,7 +885,7 @@
 					<img src="img/icons/mg_mini_epic.png" width="100" height="100" onclick="handleClick(this, 57);">
 					<img src="img/icons/mg_mini_leg.png" width="100" height="100" onclick="handleClick(this, 58);">			
 			
-					<img src="img/icons/exp_roc_rare.png" width="100" height="100" onclick="handleClick(this, 59);">
+					<!--img src="img/icons/exp_roc_rare.png" width="100" height="100" onclick="handleClick(this, 59);"-->
 					<img src="img/icons/exp_roc_epic.png" width="100" height="100" onclick="handleClick(this, 60);">
 					<img src="img/icons/exp_roc_leg.png" width="100" height="100" onclick="handleClick(this, 61);">
 					
@@ -888,11 +899,12 @@
 					<img src="img/icons/thr_gre_com.png" width="100" height="100" onclick="handleClick(this, 67);">
 					<img src="img/icons/thr_cli_un.png" width="100" height="100" onclick="handleClick(this, 68);">
 					<img src="img/icons/thr_imp_rare.png" width="100" height="100" onclick="handleClick(this, 69);">
-					<img src="img/icons/thr_rem_rare.png" width="100" height="100" onclick="handleClick(this, 70);">
 					<img src="img/icons/thr_boo_rare.png" width="100" height="100" onclick="handleClick(this, 71);">
-					<img src="img/icons/thr_port_epic.png" width="100" height="100" onclick="handleClick(this, 72);">
+					<img src="img/icons/thr_port_rare.png" width="100" height="100" onclick="handleClick(this, 72);">
+					<img src="img/icons/thr_rem_epic.png" width="100" height="100" onclick="handleClick(this, 70);">
 					<img src="img/icons/thr_rif_epic.png" width="100" height="100" onclick="handleClick(this, 85);">
 					<img src="img/icons/thr_sti_epic.png" width="100" height="100" onclick="handleClick(this, 73);">			
+					<img src="img/icons/thr_shoc_epic.png" width="100" height="100" onclick="handleClick(this, 86);">			
 			
 					<img src="img/icons/misc_spi_un.png" width="100" height="100" onclick="handleClick(this, 74);">
 					<img src="img/icons/misc_bou_rare.png" width="100" height="100" onclick="handleClick(this, 75);">
